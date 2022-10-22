@@ -1,0 +1,89 @@
+hr {
+    border: 0;
+    height: 1px;
+    background: rgb(223, 223, 223);
+    background-image: linear-gradient(to right, #ccc, #1c3131, #ccc);
+}
+
+.login-title {
+    color: #3f9620;
+    font-weight: 380 !important;
+    font-size: 200px !important;
+}
+
+.login-button {
+    color: #fea536;
+    background: #181818;
+}
+
+.doc-card {
+    width: 650px;
+}
+
+.doc-card-alignment {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.doc-text-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 1rem 0 0 0;
+    justify-content: space-between;
+    .doc-text-grid-items {
+        span {
+            font-size: 14px;
+            line-height: 20px;
+            color: #757575;
+        }
+        p {
+            font-size: 16px;
+            color: #323232;
+            line-height: 23px;
+            margin-right: 0;
+            margin: 0;
+        }
+    }
+}
+
+.spanError {
+    color: red;
+    top: 5px;
+    font-size: 13px;
+    font-weight: normal;
+}
+
+.all-dis-card {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+
+.doc-text-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 4rem 0 0 0;
+    justify-content: space-between;
+    .doc-text-grid-items {
+        span {
+            font-size: 14px;
+            line-height: 20px;
+            color: #757575;
+        }
+        p {
+            font-size: 16px;
+            color: #323232;
+            line-height: 23px;
+            margin-right: 0;
+            margin: 0;
+        }
+    }
+}
+
+.carousel-div {
+    height: 120px;
+    width: 120px!important;
+}
